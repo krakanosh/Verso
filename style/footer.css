@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: #0069e9;
+}
+.footer {
+    height: 639px;
+}
+
+.logo-container {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo2 {
+    margin-left: 159px;
+    margin-top: 49px;
+    min-width: 140px;
+    min-height: 33px;
+}
+
+.subscribe p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    .footer {
+    }
+    .footer .container {
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+    }
+    .footer .container {
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+    }
+    .footer .container {
+    }
+}
