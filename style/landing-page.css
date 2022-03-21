@@ -78,7 +78,7 @@
 }
 
 .navigation-wrap {
-	min-width: 100vw;
+	min-width: 100%;
 	height: 60px;
 	display: flex;
 	justify-content: center;
