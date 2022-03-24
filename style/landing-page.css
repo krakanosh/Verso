@@ -238,7 +238,7 @@ h1 {
 .logo-container {
 	width: 500px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .cex, .dex {
@@ -251,7 +251,17 @@ h1 {
 	0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 
 	0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 
 	0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 
-	0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);}
+	0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+	opacity: 0;
+	animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+	0% {opacity: 0;
+	margin-left: 50vw;}
+	100% {opacity: 1;
+	margin-left: 0;}
+}
 
 .cex p,
 .dex p {
